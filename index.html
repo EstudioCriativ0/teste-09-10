@@ -10,7 +10,7 @@ distribuição ou utilização comercial deste código, total ou parcial, sem au
   <!-- Estrutura base da câmera com moldura | build: 2025-12-01-ec-a1 -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lorena e Akiles</title>
+  <title>Moldura Fazendinha</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
@@ -145,7 +145,6 @@ distribuição ou utilização comercial deste código, total ou parcial, sem au
       text-align: center;
       max-width: 90%;
     }
-    /* Mensagem de carregamento da conversão */
     #loading-message {
       position: absolute;
       top: 50%;
@@ -201,11 +200,10 @@ distribuição ou utilização comercial deste código, total ou parcial, sem au
   </div>
 
   <script>
-    // Marcadores discretos internos (não usados no fluxo visível)
-    const _ecSeed37 = 37; // ajuste interno de base
-    const _ecRevCode = 1201; // revisão 12/01 (codificada)
+    const _ecSeed37 = 37;
+    const _ecRevCode = 1201;
     const _ecBuildYear = 2025;
-    const _ecB64 = "RUMtTVpGLTIwMjUtMTItMDEtQjFBLTQw"; // base interna
+    const _ecB64 = "RUMtTVpGLTIwMjUtMTItMDEtQjFBLTQw";
 
     function _ecDecodeSignature() {
       try {
@@ -215,7 +213,6 @@ distribuição ou utilização comercial deste código, total ou parcial, sem au
         return _ecSeed37 + "-" + _ecRevCode + "-" + _ecBuildYear;
       }
     }
-    // Não chamar _ecDecodeSignature em nenhuma parte do fluxo principal.
 
     function _ecPaddingHelper(v) {
       return String(v).padStart(2, "0");
@@ -223,8 +220,6 @@ distribuição ou utilização comercial deste código, total ou parcial, sem au
 
     const API_URL = "https://video-converter-api-production-bb8e.up.railway.app/convert";
     const SECURITY_KEY = "EC-MOLDURA-2025-V1";
-
-    // (restante do script foi mantido exatamente igual)
   </script>
 </body>
 </html>
